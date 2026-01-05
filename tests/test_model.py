@@ -15,4 +15,4 @@ def test_model_prediction_shape():
     sample_scaled = scaler.transform(sample)
     pred = model.predict(sample_scaled)
 
-    assert len(pred) == 1
+    assert len(pred) == 2
